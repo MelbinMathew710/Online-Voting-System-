@@ -1,0 +1,122 @@
+
+body{
+    box-sizing: border-box;       /* view like margin, padding, etc.  */
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana;         /* font */
+    font-size: 20px;
+    margin: 0;
+    width:100%;
+}
+
+nav{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    display: flex;                /* gap b/w home,about,contact of navbar is removed  */
+    justify-content: flex-end;    /* move contents of navbar to end */ 
+}
+.navAnchor{
+    text-decoration: none;        /* remove underline under home,about,contact */
+    color:white;
+    padding: 0 10px;              /* 0= padding for top,bottom 10= padding for left,right */
+}
+.navAnchor:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+form{
+    background-color: #FFF4E0;
+    opacity: 0.9;                 /* opacity= to makebackgrond visible by making form little transparent */
+    width: 30rem;
+    margin-left: 60%;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+form> button{
+    color:black;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    width:100px;
+    padding: 5px;
+}
+
+form>input{
+    margin: 15px 0;
+    width:180px;
+    font-size:1.2rem;
+    padding: 5px;
+    background-color: #009EFF;
+    border-radius: 10px;
+}
+
+form>textarea{
+    background-color: #009EFF;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-size:1.2rem;
+}
+
+form>a{
+    text-decoration: none;    /* removes underline below admin */
+    margin-left:10%;
+    color:black;
+}
+form>a:hover{
+    text-decoration: underline;
+}
+
+form>button{
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #009EFF;
+    border-radius: 10px;
+    width: 150px;
+}
+
+select,option{
+    background-color: #009EFF;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-size:1.4rem;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+#aboutUs{
+    background-color: #FFF4E0;
+    opacity: 0.8;
+    width: 30rem;
+    margin-left: 55%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+table{
+    background-color: #FFF4E0;
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+th,td{
+    padding: 30px;
+}
+
+td>img{
+    width:160px;
+    height:160px;
+}

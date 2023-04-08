@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>VoterLogin</servlet-name>
+        <servlet-class>VoterLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>contact</servlet-name>
+        <servlet-class>contact</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>register</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminLogin</servlet-name>
+        <servlet-class>adminLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>vote</servlet-name>
+        <servlet-class>vote</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VoterLogin</servlet-name>
+        <url-pattern>/VoterLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>contact</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminLogin</servlet-name>
+        <url-pattern>/adminLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>vote</servlet-name>
+        <url-pattern>/vote</url-pattern>
+    </servlet-mapping>
+</web-app>
